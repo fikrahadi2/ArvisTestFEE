@@ -8,7 +8,6 @@ function App() {
   return (
     <Router>
       <Home />
-      <div>HALLOWOWOOWOWOW</div>
     </Router>
   );
 }
