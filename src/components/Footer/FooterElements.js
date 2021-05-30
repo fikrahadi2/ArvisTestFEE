@@ -1,10 +1,8 @@
 import styled from 'styled-components'
-import { Link as LinkR } from 'react-router-dom'
-import { Link as LinkS } from 'react-scroll'
 
-export const Nav = styled.nav`
+export const FooterSection = styled.nav`
     background: #d8d8d8;
-    height: 80px;
+    height: 110px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,7 +16,7 @@ export const Nav = styled.nav`
     }
 `;
 
-export const NavbarContainer = styled.div`
+export const FooterContainer = styled.div`
     display: flex;
     justify-content: space-between;
     height: 80px;
@@ -27,36 +25,16 @@ export const NavbarContainer = styled.div`
     max-width: 1350px
 `;
 
-export const NavLogo = styled(LinkR)`
-    color: #000000;
-    justify-content: flex-start;
-    cursor: pointer;
-    font-size: 1.5rem;
-    display: flex;
-    align-items: center;
-    margin-left: 10px;
-    font-weight: bold;
-    text-decoration: none;
+export const FooterPhoto = styled.img`
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
 `
 
-export const MobileIcon = styled.div`
-    display: none;
-
-    @media screen and (max-width: 760px) {
-        display: block;
-        position: absolute;
-        top: 0;
-        right: 0;
-        transform: translate(-100%, 60%);
-        font-size: 1.8rem;
-        cursor: pointer;
-        color: #fff;
-    }
-`
-
-export const NavMenu = styled.ul`
+export const FooterMenu = styled.ul`
     display: flex;
     align-items: center;
+    justify-content: flex-end;
     list-style: none;
     text-align: center;
     margin-right: -22px;
@@ -66,11 +44,12 @@ export const NavMenu = styled.ul`
     }
 `
 
-export const NavItem = styled.li`
+export const FooterItem = styled.li`
     height: 80px;
+    align-iitems: center;
 `
 
-export const NavLinks = styled(LinkS)`
+export const FooterLinks = styled.a`
     color: #000000;
     display: flex;
     align-items: center;
@@ -87,33 +66,25 @@ export const NavLinks = styled(LinkS)`
     }
 `
 
-export const NavBtn = styled.nav`
+export const FooterText = styled.p`
+    color: #000000;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 100%;
+`
+
+export const FooterMenuText = styled.ul`
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    margin-right: 10px;
+    flex-direction: column;
+    list-style: none;
+    text-align: center;
+    margin-right: -22px;
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width:760px) {
         display: none;
-    }
-`
-
-export const NavBtnLink = styled(LinkR)`
-    border-radius: 10px;
-    background: #2AD576;
-    white-space: nowrap;
-    padding: 10px 22px;
-    color: #010606;
-    font-size: 16px;
-    outline: none;
-    border: none;
-    cursor: pointer;
-    transition: all 0.2s ease-in-out;
-    text-decoration: none;
-
-    &:hover {
-        transition: all 0.2s ease-in-out;
-        background: #6AE2A0;
-        color: #010606;
     }
 `

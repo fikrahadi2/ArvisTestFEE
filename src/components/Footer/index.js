@@ -1,36 +1,40 @@
 import React from 'react';
-import {Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, NavBtn, NavBtnLink } from './NavbarElements';
-import {FaBars } from 'react-icons/fa';
+import {FooterSection, FooterContainer, FooterPhoto, FooterMenu, FooterItem, FooterLinks, FooterText, FooterMenuText} from './FooterElements';
 
-const Navbar = ({ toggle }) => {
+const Footer = ({ toggle }) => {
     return (
         <>
-            <Nav>
-                <NavbarContainer>
-                    <NavLogo to='/'>
-                        Toko Hadi
-                    </NavLogo>
-                    <MobileIcon onClick={toggle}>
-                        <FaBars />
-                    </MobileIcon>
-                    <NavMenu>
-                        <NavItem>
-                            <NavLinks to="beranda">BERANDA</NavLinks>
-                        </NavItem>
-                        <NavItem>
-                            <NavLinks to="list">LIST BARANG</NavLinks>
-                        </NavItem>
-                        <NavItem>
-                            <NavLinks to="cart">KERANJANG</NavLinks>
-                        </NavItem>
-                    </NavMenu>
-                    <NavBtn>
-                        <NavBtnLink to="/login">LOGIN</NavBtnLink>
-                    </NavBtn>
-                </NavbarContainer>
-            </Nav>
+            <FooterSection>
+                <FooterContainer>
+                    <FooterMenuText>
+                        <FooterItem>
+                            <FooterText>Created by:</FooterText>
+                        </FooterItem>
+                        <FooterItem>
+                            <FooterText>Fikra Hadi Ramadhan</FooterText>
+                        </FooterItem>
+                        <FooterItem>
+                            <FooterText>Teknik Informatika ITB 2018</FooterText>
+                        </FooterItem>
+                        <FooterItem>
+                            <FooterText>Test Frontend Arvis</FooterText>
+                        </FooterItem>
+                    </FooterMenuText>
+                    <FooterMenu>
+                        <FooterItem>
+                            <FooterPhoto alt="fotohadi" src="/Hadi.jpg"/>
+                        </FooterItem>
+                        <FooterItem>
+                            <FooterLinks href="https://instagram.com/fikrahadi" target="_blank">Instagram</FooterLinks>
+                        </FooterItem>
+                        <FooterItem>
+                            <FooterLinks href="https://www.linkedin.com/in/fikrahadi/" target="_blank">Linkedin</FooterLinks>
+                        </FooterItem>
+                    </FooterMenu>
+                </FooterContainer>
+            </FooterSection>
         </>
     )
 }
 
-export default Navbar;
+export default Footer;
