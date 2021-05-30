@@ -24,18 +24,17 @@ export const NavbarContainer = styled.div`
     height: 80px;
     z-index: 1;
     width: 100%;
-    padding: 0 20px;
     max-width: 1350px
 `;
 
 export const NavLogo = styled(LinkR)`
     color: #000000;
-    justify-self: flex-start;
+    justify-content: flex-start;
     cursor: pointer;
     font-size: 1.5rem;
     display: flex;
     align-items: center;
-    margin-left: 24px;
+    margin-left: 10px;
     font-weight: bold;
     text-decoration: none;
 `
@@ -91,6 +90,8 @@ export const NavLinks = styled(LinkS)`
 export const NavBtn = styled.nav`
     display: flex;
     align-items: center;
+    justify-content: flex-end;
+    margin-right: 10px;
 
     @media screen and (max-width: 768px) {
         display: none;
@@ -115,6 +116,4 @@ export const NavBtnLink = styled(LinkR)`
         background: #6AE2A0;
         color: #010606;
     }
-
-
 `
