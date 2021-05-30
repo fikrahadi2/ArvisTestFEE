@@ -1,7 +1,7 @@
 import React from 'react';
 import {FooterSection, FooterContainer, FooterPhoto, FooterMenu, FooterItem, FooterLinks, FooterText, FooterMenuText} from './FooterElements';
 
-const Footer = ({ toggle }) => {
+const Footer = () => {
     return (
         <>
             <FooterSection>
