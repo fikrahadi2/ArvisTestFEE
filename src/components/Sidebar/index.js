@@ -12,7 +12,7 @@ const Sidebar = ({ isOpen, toggle }) => {
                     <SidebarLink to="beranda" onClick={toggle}>
                         BERANDA
                     </SidebarLink>
-                    <SidebarLink to="list" onClick={toggle}>
+                    <SidebarLink href="/ListBarang/index" onClick={toggle}>
                         LIST BARANG
                     </SidebarLink>
                     <SidebarLink to="keranjang" onClick={toggle}>
@@ -20,7 +20,7 @@ const Sidebar = ({ isOpen, toggle }) => {
                     </SidebarLink>
                 </SidebarMenu>
                 <SideBtnWrap>
-                    <SidebarRoute>
+                    <SidebarRoute to="/login">
                         LOGIN
                     </SidebarRoute> 
                 </SideBtnWrap>
