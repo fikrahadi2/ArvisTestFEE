@@ -1,6 +1,7 @@
 import React from 'react';
 import {Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, NavBtn, NavBtnLink } from './NavbarElements';
 import {FaBars } from 'react-icons/fa';
+import { Link } from 'react-router';
 
 const Navbar = ({ toggle }) => {
     return (
@@ -15,10 +16,10 @@ const Navbar = ({ toggle }) => {
                     </MobileIcon>
                     <NavMenu>
                         <NavItem>
-                            <NavLinks to="beranda">BERANDA</NavLinks>
+                            <NavLinks to="/">BERANDA</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="list">LIST BARANG</NavLinks>
+                            <NavLinks href="/pages/list">LIST BARANG</NavLinks>
                         </NavItem>
                         <NavItem>
                             <NavLinks to="cart">KERANJANG</NavLinks>
