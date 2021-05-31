@@ -16,7 +16,7 @@ const ListBarangSection = () => {
                                 <BarangNama>{data.nama}</BarangNama>
                                 <BarangHarga>{data.harga}</BarangHarga>
                                 <BarangDetail>
-                                    <BarangDetailLink to='data'>DETAIL</BarangDetailLink>
+                                    <BarangDetailLink to='/data'>DETAIL</BarangDetailLink>
                                 </BarangDetail>
                             </BarangTabel>
                         </BarangWrapper>

@@ -66,6 +66,7 @@ export const BarangTabel = styled.div`
     padding: 30px;
     box-shadow: 0 1px 3 px rgba(0,0,0,0.2);
     transitions: all 0.2s ease-in-out;
+    flex-wrap: wrap;
     
 
     &:hover {
@@ -124,7 +125,7 @@ export const BarangHarga = styled.p`
 `
 
 export const BarangDetail = styled.nav`
-    margin-top: 50px;
+    margin-top: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
