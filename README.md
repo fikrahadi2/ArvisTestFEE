@@ -5,18 +5,18 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## API Documentation
 
 ### Landing Page
-<img src='public/landingpage.jpg' />
+<img src='public/landingpage.jpg' >
 
 ### Login Page
 
 ### List Page
-<img src='public/list.jpg' />
+<img src='public/list.jpg' >
 
 ### Detail Page
-<img src='public/detail.jpg' />
+<img src='public/detail.jpg' >
 
 ### Cart Page
-<img src='public/cart.jpg' />
+<img src='public/cart.jpg' >
 
 ## How To Run Program
 
