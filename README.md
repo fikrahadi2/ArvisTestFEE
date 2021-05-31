@@ -5,6 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## API Documentation
 
 ### Landing Page
+<img src='public/landingpage' />
 ### Login Page
 ### List Page
 ### Detail Page
