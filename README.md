@@ -26,7 +26,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - For list page, button "Detail" can't direct too
 - For detail page, button "Add to Cart" can't direct too, and i don't know how to use GET method, there's some error if i try
 - For cart page, i don't know how to use multiplicate function in javascript, soo that total is not right
-- I'm sorry, it's my first time build a website with React.js alone (usually with team and i can ask anything with them), and i don't know how to use database/local storage correctly, soo this is that i can do, i literally only proficiency at frontend that take care of UI/UX. If i be accepted by arvis, i hope i can get knowledge about all of my mistakes.
+- I'm sorry, it's my first time build a website with React.js alone (usually with team and i can ask anything with them), and i don't know how to use database/local storage correctly, soo this is that i can do, i literally only proficiency at frontend that take care of UI/UX. If i be accepted by arvis, i hope i can get knowledge about all of my mistakes
+- Because all of my mistake, if you want to open pages, please edit index.js at "src/pages/index.js" and delete comment in section that you want to see
 
 ## How To Run Program
 

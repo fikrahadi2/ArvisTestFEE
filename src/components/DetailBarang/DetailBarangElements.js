@@ -292,3 +292,9 @@ export const DetailAddLink = styled(LinkR)`
     }
     
 `
+
+export const DetailInput = styled.input`
+    font-size: 1rem;
+    margin: 10px;
+    text-align: center;
+`

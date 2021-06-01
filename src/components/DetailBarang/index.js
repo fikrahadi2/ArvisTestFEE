@@ -1,5 +1,5 @@
 import React/*, {useState}*/ from 'react';
-import {DetailContainer, DetailH1, DetailItem, DetailWrapper, DetailWrapper2, DetailWrapper3, DetailTabel, DetailTabel2, DetailTabel3, DetailTabel4, DetailFoto, DetailNama, DetailHarga, DetailStok, DetailDeskripsi, DetailDeskripsi2, DetailAddLink} from './DetailBarangElements';
+import {DetailContainer, DetailH1, DetailItem, DetailWrapper, DetailWrapper2, DetailWrapper3, DetailInput, DetailTabel, DetailTabel2, DetailTabel3, DetailTabel4, DetailFoto, DetailNama, DetailHarga, DetailStok, DetailDeskripsi, DetailDeskripsi2, DetailAddLink} from './DetailBarangElements';
 import {DataBarang as data} from '../ListBarang/DataBarang.js'
 
 
@@ -28,11 +28,10 @@ const DetailSection = () => {
                             
                         </DetailTabel>
                         <DetailWrapper2>
-                            <DetailTabel4>
-                                Isi
+                            <DetailTabel4> Banyak : 
+                                <DetailInput type='text'></DetailInput>
                             </DetailTabel4>
-                            <DetailAddLink to='/data'>Add to Cart</DetailAddLink>
-                            
+                            <DetailAddLink to='/keranjang'>ADD TO CART</DetailAddLink>
                         </DetailWrapper2>
                     </DetailWrapper3>
                 </DetailWrapper>

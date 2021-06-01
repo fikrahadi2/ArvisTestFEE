@@ -32,7 +32,7 @@ const HomeSection = () => {
                     />
                 </HomeP>
                 <HomeBtn>
-                    <HomeBtnLink to="/buy">BELI SEKARANG</HomeBtnLink>
+                    <HomeBtnLink to="/list">BELI SEKARANG</HomeBtnLink>
                 </HomeBtn>
             </HomeContent>
         </HomeContainer>

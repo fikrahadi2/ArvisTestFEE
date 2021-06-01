@@ -17,7 +17,7 @@ const KeranjangSection = () => {
                                 <KeranjangBanyak>{data.sisa}</KeranjangBanyak>
                                 <KeranjangHarga>{data.harga}</KeranjangHarga>
                                 <KeranjangHapus>
-                                    <KeranjangHapusLink to='/data'>HAPUS</KeranjangHapusLink>
+                                    <KeranjangHapusLink to='/keranjang'>HAPUS</KeranjangHapusLink>
                                 </KeranjangHapus>
                             </KeranjangTabel>
                         </KeranjangWrapper>

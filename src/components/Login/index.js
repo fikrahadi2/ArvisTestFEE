@@ -16,7 +16,7 @@ const LoginSection = () => {
                 </LoginPassword>
             </LoginItem>
             <LoginBtn>
-                <LoginBtnLink to="/buy">SUBMIT</LoginBtnLink>
+                <LoginBtnLink to="/index">SUBMIT</LoginBtnLink>
             </LoginBtn>
         </LoginContainer>
     )

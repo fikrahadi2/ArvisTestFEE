@@ -16,17 +16,17 @@ const Navbar = ({ toggle }) => {
                     </MobileIcon>
                     <NavMenu>
                         <NavItem>
-                            <NavLinks to="/">BERANDA</NavLinks>
+                            <NavLinks to='/index'>BERANDA</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to={{pathname: '/pages/list'}}>LIST BARANG</NavLinks>
+                            <NavLinks to='/list'>LIST BARANG</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks path='/keranjang'>KERANJANG</NavLinks>
+                            <NavLinks to='/keranjang'>KERANJANG</NavLinks>
                         </NavItem>
                     </NavMenu>
                     <NavBtn>
-                        <NavBtnLink to={{pathname: '/login'}}>LOGIN</NavBtnLink>
+                        <NavBtnLink to='/login'>LOGIN</NavBtnLink>
                     </NavBtn>
                 </NavbarContainer>
             </Nav>
