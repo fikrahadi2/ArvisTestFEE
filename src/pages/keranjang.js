@@ -1,10 +1,10 @@
 import React, {useState} from 'react'
-import ListBarangSection from '../components/ListBarang'
+import KeranjangSection from '../components/Keranjang'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import Sidebar from '../components/Sidebar'
 
-const ListBarang = () => {
+const Keranjang = () => {
     const [isOpen, setIsOpen] = useState(false)
 
     const toggle = () => {
@@ -14,10 +14,10 @@ const ListBarang = () => {
         <>
             <Sidebar isOpen={isOpen} toggle={toggle}/>
             <Navbar toggle={toggle}/>
-            <ListBarangSection />
+            <KeranjangSection />
             <Footer/>
         </>
     )
 }
 
-export default ListBarang
+export default Keranjang

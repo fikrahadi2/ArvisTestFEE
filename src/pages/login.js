@@ -1,23 +1,24 @@
 import React, {useState} from 'react'
-import ListBarangSection from '../components/ListBarang'
 import Navbar from '../components/Navbar'
+import LoginLayout from '../components/Login'
 import Footer from '../components/Footer'
 import Sidebar from '../components/Sidebar'
 
-const ListBarang = () => {
+const Login = () => {
     const [isOpen, setIsOpen] = useState(false)
 
     const toggle = () => {
         setIsOpen(!isOpen)
     }
+
     return (
         <>
             <Sidebar isOpen={isOpen} toggle={toggle}/>
             <Navbar toggle={toggle}/>
-            <ListBarangSection />
+            <LoginLayout />
             <Footer/>
         </>
     )
 }
 
-export default ListBarang
+export default Login
