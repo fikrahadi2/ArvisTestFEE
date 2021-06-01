@@ -19,29 +19,19 @@ const Navbar = ({ toggle }) => {
                             <NavLinks to="/">BERANDA</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks href="../../pages/ListBarang/">LIST BARANG</NavLinks>
+                            <NavLinks to={{pathname: '/pages/list'}}>LIST BARANG</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="cart">KERANJANG</NavLinks>
+                            <NavLinks path='/keranjang'>KERANJANG</NavLinks>
                         </NavItem>
                     </NavMenu>
                     <NavBtn>
-                        <NavLink to="/login">LOGIN</NavLink>
+                        <NavBtnLink to={{pathname: '/login'}}>LOGIN</NavBtnLink>
                     </NavBtn>
                 </NavbarContainer>
             </Nav>
         </>
     )
 }
-
-function NavLink({ to, children }: NavLinkProp) {
-    return (
-      <NavBtnLink>
-        <Link href={to} passHref>
-          {children}
-        </Link>
-      </NavBtnLink>
-    );
-  }
 
 export default Navbar;
