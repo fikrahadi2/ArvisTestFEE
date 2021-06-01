@@ -92,7 +92,7 @@ export const KeranjangTabel = styled.div`
     justify-content: space-between;
     align-items: center;
     border-radius: 10px;
-    max-height: 130px;
+    max-height: 100px;
     width: 1200px;
     padding: 30px;
     box-shadow: 0 1px 3 px rgba(0,0,0,0.2);
@@ -108,8 +108,8 @@ export const KeranjangTabel = styled.div`
 
 export const KeranjangFoto = styled.img`
     border-radius: 10px;
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
     margin-bottom: 10px;
 
     @media screen and (max-width: 992px) {
